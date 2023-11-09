@@ -138,15 +138,6 @@ Notes:
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
 End Users osTicket URL: http://localhost/osTicket/ 
 
-Part 3 (Post Installation Setup)
-- Configure Roles - Admin Panel -> Agents -> Roles -> Supreme Admin
-- Configure Departments - Admin Panel -> Agents -> Departments -> System Administrators
-- Configure Teams - Admin Panel -> Agents -> Teams -> Level l Support -> Level 2 Support
-- Allow anyone to create tickets - Admin Panel -> Settings -> User Settings (Registration Required: Require registration and login to create tickets)
-- Configure Agents (workers) - Agent Panel -> Agents -> Add New -> John or Jane
-- Configure Users (customers) - Agent panel -> Users -> Add New -> Karen or Ken
-- Configure SLA - Admin Panel -> Manage -> SLA (Sev-A 1 hour, 24/7) (Sev-B 4 hours, 24/7) (Sev-c 9 hours, 24/7)
-- Configure Help Topics - Admin Panel -> Manage -> Help Topics (Business Critical Outage) (Personal Computer Issues) (Equipment Request) (Passwork Reset)
 
 
 
