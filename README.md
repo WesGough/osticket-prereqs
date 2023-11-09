@@ -65,6 +65,9 @@ From the Installation Files, download and install the Rewrite Module (rewrite_am
 
 Create the directory C:\PHP
 
+![image](https://github.com/WesGough/osticket-prereqs/assets/150361198/4b79db2a-19b8-452f-b81f-d1e4157bde09)
+
+
 From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 
 If you are still having trouble downloading PHP 7.3.8, please try downloading and installing Google Chrome and doing it from within there. 
@@ -77,6 +80,9 @@ From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win
 
 Open IIS as an Admin
 
+![image](https://github.com/WesGough/osticket-prereqs/assets/150361198/39a63b4a-06c2-4e1e-bf21-44a436b874f7)
+
+
 Register PHP from within IIS
 
 Reload IIS (Open IIS, Stop and Start the server)
@@ -86,10 +92,16 @@ Download osTicket from the Installation Files Folder
 Extract and copy “upload” folder to c:\inetpub\wwwroot
 Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 
+![image](https://github.com/WesGough/osticket-prereqs/assets/150361198/2fee8443-f0ff-462e-9370-c1d62fab3448)
+
+
 Reload IIS (Open IIS, Stop and Start the server)
 
 Go to sites -> Default -> osTicket
 On the right, click “Browse *:80”
+
+![image](https://github.com/WesGough/osticket-prereqs/assets/150361198/8ef26491-51fb-40af-bf4c-e4ad163da566)
+
 
 Note that some extensions are not enabled
 Go back to IIS, sites -> Default -> osTicket
@@ -100,9 +112,15 @@ Enable: php_intl.dll
 Enable: php_opcache.dll
 Refresh the osTicket site in your browse, observe the changes
 
+![image](https://github.com/WesGough/osticket-prereqs/assets/150361198/f55a90be-665c-4bbf-bccc-57ec6bdc7d16)
+
+
 Rename: ost-config.php
 From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+![image](https://github.com/WesGough/osticket-prereqs/assets/150361198/896776e3-7f92-4132-a154-30ae5d41eb3f)
+
 
 Assign Permissions: ost-config.php
 Disable inheritance -> Remove All
@@ -118,6 +136,9 @@ Create a new session, root/Password1
 Connect to the session
 Create a database called “osTicket”
 
+![image](https://github.com/WesGough/osticket-prereqs/assets/150361198/1ac6429c-47c1-44ce-ae87-508e2fa98986)
+
+
 Continue Setting up osticket in the browser
 MySQL Database: osTicket
 MySQL Username: root
@@ -126,6 +147,9 @@ Click “Install Now!”
 
 Congratulations, hopefully it is installed with no errors!
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+
+![image](https://github.com/WesGough/osticket-prereqs/assets/150361198/095b7db6-38cd-4f0b-8a03-a0b7afc1dc1e)
+
 
 End Users osTicket URL:
 http://localhost/osTicket/ 
@@ -141,13 +165,6 @@ End Users osTicket URL: http://localhost/osTicket/
 
 
 
-Part 4 (Tickets and Ticket Lifecycle)
-Just practice creating, triaging, and solving tickets. I recommend watching the video to learn about triaging multiple tickets.
-Ticket examples:
-
-- Sev-A (1 hour, 24/7) [entire mobile/online banking system is down] -> SysAdmins
-- Sev-B (4 hours, 24/7) [accounting department needs adobe upgrade, broken]
-- Sev-B/C (2 hours, business hours) [CFO’s laptop seems a bit slow]
 
 </p>
 <br />
