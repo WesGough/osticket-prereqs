@@ -53,12 +53,10 @@ https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 </p>
 <p>
 Install / Enable IIS in Windows WITH CGI and Common HTTP Features
-  - World Wide Web Services -> Application Development Features ->
-    [X] CGI
-    [X] Common HTTP Features
-AND IIS Management Console
-  - Internet Information Services -> Web Management Tools -> IIS Management Console
-	  [X] IIS Management Console
+	
+- World Wide Web Services -> Application Development Features -> [X] CGI [X] Common HTTP Features AND IIS Management Console
+
+- Internet Information Services -> Web Management Tools -> IIS Management Console [X] IIS Management Console
 
 
 From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
@@ -68,20 +66,14 @@ From the Installation Files, download and install the Rewrite Module (rewrite_am
 Create the directory C:\PHP
 
 From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
-!! ATTENTION !!
-If this appears, choose to “Keep” the file:
-
-
 
 If you are still having trouble downloading PHP 7.3.8, please try downloading and installing Google Chrome and doing it from within there. 
 
 From the Installation Files, download and install VC_redist.x86.exe.
 
 From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-Typical Setup ->
-Launch Configuration Wizard (after install) ->
-Standard Configuration ->
-Password1
+- Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration
+
 
 Open IIS as an Admin
 
